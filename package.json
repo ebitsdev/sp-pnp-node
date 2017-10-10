@@ -1,7 +1,7 @@
 {
   "name": "sp-pnp-node",
   "description": "SharePoint JavaScript Core Library (PnP JS Core) wrapper helper for Node.js",
-  "version": "2.0.0",
+  "version": "3.0.0-beta.0",
   "main": "./dist/index.js",
   "typings": "./dist/index",
   "scripts": {
@@ -13,6 +13,7 @@
     "sharepoint",
     "rest",
     "sp-pnp-js",
+    "@pnp/sp",
     "wrapper",
     "nodejs"
   ],
@@ -27,32 +28,33 @@
   },
   "homepage": "https://github.com/koltyakov/sp-pnp-node#readme",
   "dependencies": {
+    "@pnp/common": "^1.0.0-beta.0",
+    "@pnp/sp": "^1.0.0-beta.0",
     "node-fetch": "^1.7.3",
-    "node-sp-auth": "^2.2.3",
-    "node-sp-auth-config": "^2.0.5",
-    "sp-pnp-js": "^3.0.1"
+    "node-sp-auth": "^2.2.8",
+    "node-sp-auth-config": "^2.0.5"
   },
   "devDependencies": {
-    "@types/chai": "^4.0.2",
+    "@types/chai": "^4.0.4",
     "@types/colors": "^1.1.3",
-    "@types/core-js": "^0.9.42",
-    "@types/mocha": "^2.2.41",
-    "@types/node": "^8.0.20",
+    "@types/core-js": "^0.9.43",
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.33",
     "@types/node-fetch": "^1.6.7",
-    "chai": "^4.1.1",
+    "chai": "^4.1.2",
     "colors": "^1.1.2",
-    "cpass": "^2.0.0",
+    "cpass": "^2.0.1",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-sourcemaps": "^2.6.0",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-tslint": "^8.1.2",
-    "gulp-typescript": "^3.2.1",
+    "gulp-typescript": "^3.2.2",
     "merge-stream": "^1.0.1",
-    "mocha": "^3.5.0",
+    "mocha": "^4.0.1",
     "sp-request": "^2.1.0",
     "ts-node": "^3.3.0",
-    "tslint": "^5.6.0",
-    "typescript": "^2.4.2",
-    "yargs": "^8.0.2"
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3",
+    "yargs": "^9.0.1"
   }
 }

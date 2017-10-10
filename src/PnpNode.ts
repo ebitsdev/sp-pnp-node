@@ -1,4 +1,5 @@
-import { HttpClientImpl, FetchOptions } from 'sp-pnp-js';
+import { HttpClientImpl } from '@pnp/sp';
+import { FetchOptions } from '@pnp/common';
 import * as spauth from 'node-sp-auth';
 import * as nodeFetch from 'node-fetch';
 import fetch from 'node-fetch';
